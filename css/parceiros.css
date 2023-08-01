@@ -1,0 +1,30 @@
+.parceiros {
+  padding-top: 5em;
+}
+
+.parceiros h2 {
+  margin-bottom: 1em;
+}
+
+.parceiros ul {
+  padding: 0 1em;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.parceiros li {
+  padding: 32px;
+  display: flex;
+  border: 2px solid var(--cor2);
+}
+
+.parceiros-lista img {
+  margin: auto;
+}
+
+.parceiros li:first-child,
+.parceiros li:nth-child(5) {
+  border-left: none;
+}
