@@ -5,6 +5,7 @@
 
 .bicicletas-lista ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   padding: 0 20px 0 20px;
   margin-bottom: 20px;
