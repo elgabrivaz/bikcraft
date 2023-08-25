@@ -21,3 +21,7 @@
 
 /* bicicletas */
 @import url(/css/bicicletas/bicicletas.css);
+
+/* Bicicleta Individual */
+@import url(/css/bicicleta/bicicleta.css);
+@import url(/css/bicicleta/seguro.css);
