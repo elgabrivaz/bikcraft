@@ -6,6 +6,7 @@
   background-color: var(--cor-p2);
   color: var(--cor-p5);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .botao:hover {

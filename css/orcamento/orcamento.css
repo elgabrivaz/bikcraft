@@ -1,0 +1,47 @@
+#orcamento {
+  background: linear-gradient(var(--cor11) 600px, var(--cor2) 0px);
+}
+
+.orcamento {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  padding-bottom: 120px;
+  background: var(--cor2);
+}
+
+.orcamento h2 {
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.orcamento h2::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  position: absolute;
+  left: -12px;
+}
+
+.orcamento-produto,
+.orcamento-dados {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.orcamento-produto {
+  display: grid;
+  background: var(--cor12);
+}
+
+.orcamento-conteudo {
+  background: var(--cor0);
+  display: none;
+}
+
+.orcamento-dados {
+  border-radius: 0 5px 5px 0;
+}

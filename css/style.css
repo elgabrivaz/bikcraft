@@ -16,6 +16,11 @@
 @import url(/css/seguros/seguros.css);
 @import url(/css/seguros/seguros-page.css);
 
+/* contato */
+
+@import url(/css/contato/contato.css);
+@import url(/css/contato/lojas.css);
+
 /* termos */
 @import url(/css/termos/termos.css);
 
@@ -25,3 +30,9 @@
 /* Bicicleta Individual */
 @import url(/css/bicicleta/bicicleta.css);
 @import url(/css/bicicleta/seguro.css);
+
+/* formulario */
+@import url(/css/utilidades/formulario.css);
+
+/* orçamento */
+@import url(/css/orcamento/orcamento.css);
