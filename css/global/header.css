@@ -24,7 +24,7 @@
   display: inline-block;
   color: #ffffff;
 }
-.header a::after {
+.header-menu a::after {
   content: "";
   display: block;
   height: 2px;
@@ -32,7 +32,8 @@
   background: #ffffff;
   margin-top: 4px;
 }
-.header a:hover:after {
+.header-menu a:hover:after,
+.header-menu a.ativo::after {
   width: 100%;
   transition: 0.3s;
 }
